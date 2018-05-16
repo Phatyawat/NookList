@@ -1,0 +1,20 @@
+// @mixin header-styles($background, $colors){
+// 	box-shadow: 1px -1px 6px 0px rgba(0, 0, 0, 0.5);
+// 	.toolbar-background
+// 	{
+// 		border: none !important;
+// 		background-color: $background;
+		
+// 	}
+
+// 	.toolbar-title,
+// 	.back-button,
+// 	.bar-button
+// 	{
+// 		color: $color;
+// 	}
+// }
+
+ion-header {
+	box-shadow: 1px -1px 19px 4px rgba(0, 0, 0, 0.5);
+}

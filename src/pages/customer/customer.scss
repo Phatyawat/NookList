@@ -1,0 +1,61 @@
+page-customer {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../assets/imgs/background_nuk.png");
+    
+
+    ion-item-sliding{
+        border-radius: 5px;
+        margin-bottom: 10px;
+        box-shadow: 1px 4px 16px 0 rgba(0, 0, 0, 0.14)
+    }
+
+    ion-item{
+        padding-left: 0px!important;
+    }
+
+    .set-center{
+        margin: auto;
+    }
+ 
+    .form{
+        height: auto;
+        border-radius: 5px;
+        background: #FFFFFF;
+        box-shadow: 1px 4px 16px 0 rgba(0, 0, 0, 0.14), 0px 1px 2px 0px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    }
+
+    .image-back{
+       font-size: 16rem;
+       margin: 200px;
+    }
+
+    .button-add-photo{
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../assets/imgs/background_nuk.png");
+    
+    }
+
+    .form-add-picture{
+        height: auto;
+        width: auto;
+        margin: auto;
+    }
+
+    ion-searchbar{
+        background: transparent !important;
+        .searchbar-input {
+            box-shadow: 1px 4px 16px 0 rgba(0, 0, 0, 0.14), 0px 1px 2px 0px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        }
+    }
+    ion-list{
+        .item-block:first-child {
+            border-top: none !important; 
+        }
+    }
+
+}
+
